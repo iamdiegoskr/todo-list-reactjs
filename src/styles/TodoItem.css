@@ -1,0 +1,12 @@
+.item-todo{
+    display: flex;
+    align-items: center;
+}
+
+.item-todo input{
+    margin-right: 12px;
+}
+
+.item-todo input:checked~p.only-task{
+    text-decoration: line-through;
+}
